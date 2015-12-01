@@ -1,11 +1,9 @@
-var myArray = [];
-myArray = ["Todd Bontrager", "toddbontrager"];
-
+var myArray = ["Todd Bontrager", "toddbontrager"];
 function cutName (str) {
   return str.split(" ");
-}
-
-var myData = {};
-myData.fullName = cutName(myArray[0]);
-myData.skype = myArray[1];
-myData.github = "toddbontrager";
+};
+var myData = {
+  fullName: cutName(myArray[0]);
+  skype: myArray[1];
+  github: "toddbontrager";
+};
